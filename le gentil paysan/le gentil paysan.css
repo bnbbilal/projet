@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(33, 170, 233),rgb(140, 238, 49));
+    height: 150vh;
+    background-repeat: no-repeat;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+header.logo{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li a{
+    margin-right: 35px;
+}
+header ul li a ,.active{
+    
+    padding: 6px 15px;  
+    border-radius: 20px  40px;
+}
+header ul li a:hover{
+    background: greenyellow;
+    color:(38, 3, 49) ;
+
+}
+body h1[id="le"]{
+    padding: 20px 40px;
+    text-align: center;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    background-attachment: scroll;
+}
+image{
+    width: 200px;
+    min-height: 200px;
+}
+p[id="pp"] {
+    border: 2px red solid;
+    border-radius: 20px 40px;
+    background-color: red;
+    color: rgb(25, 241, 241);
+    font-family: initial;
+    font-size: x-large; 
+    text-align: center;
+}
+p[id="bnb"]{
+    text-align: center;
+    border-radius: 20px 40px;
+    color: rgb(0, 255, 221);
+    border: 2px red solid;
+    background-color: red;
+    font-family: initial;
+    font-size: x-large;
+}
+p[id="bbb"]{
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    padding-right: 20px;
+    padding-left: 50px;
+    font-size: larger;
+   
+
+}
+img{
+    background-repeat: no-repeat;
+}

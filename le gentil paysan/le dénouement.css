@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(33, 170, 233),rgb(140, 238, 49));
+    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    background-repeat: no-repeat;
+}
+DIV[id="PP"]{
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-right: 50px;
+    margin-left:  50px;
+    
+    
+}   
+p[id="bi"]{
+    color: yellow;
+    font-family:italique;
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+  
+    
+}
+p[id="ss"]{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+div[id="qq"]{
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-attachment: scroll;
+}
